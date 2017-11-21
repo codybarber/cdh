@@ -35,7 +35,7 @@ return [
 
         'sqlite' => [
             'driver' => 'sqlite',
-            'database' => storage_path('app/db.sqlite'), //'/Users/codybarber/data.db',
+            'database' => storage_path('db.sqlite'), //'/Users/codybarber/data.db',
             'prefix' => '',
         ],
 
