@@ -87260,6 +87260,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -87471,30 +87473,39 @@ var render = function() {
       _vm._m(1, false, false),
       _vm._v(" "),
       _c("div", { staticClass: "panel-body" }, [
-        _c("table", { staticClass: "table table-striped table-condensed" }, [
-          _vm._m(2, false, false),
-          _vm._v(" "),
+        _c("div", { staticClass: "table-responsive" }, [
           _c(
-            "tbody",
-            _vm._l(_vm.standingrows, function(row) {
-              return _c("tr", [
-                _c("td", [_vm._v(_vm._s(_vm.cap_string(row.name)))]),
-                _vm._v(" "),
-                _c("td", [_vm._v(_vm._s(row.owner))]),
-                _vm._v(" "),
-                _c("td", [_vm._v(_vm._s(row.w))]),
-                _vm._v(" "),
-                _c("td", [_vm._v(_vm._s(row.l))]),
-                _vm._v(" "),
-                _c("td", [_vm._v(_vm._s(row.gb))]),
-                _vm._v(" "),
-                _c("td", { class: [row.gl > 20 ? "danger" : ""] }, [
-                  _vm._v(_vm._s(row.gl))
-                ]),
-                _vm._v(" "),
-                _c("td", [_vm._v(_vm._s(row.winperc))])
-              ])
-            })
+            "table",
+            {
+              staticClass:
+                "table table-striped table-condensed table-responsive"
+            },
+            [
+              _vm._m(2, false, false),
+              _vm._v(" "),
+              _c(
+                "tbody",
+                _vm._l(_vm.standingrows, function(row) {
+                  return _c("tr", [
+                    _c("td", [_vm._v(_vm._s(_vm.cap_string(row.name)))]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v(_vm._s(row.owner))]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v(_vm._s(row.w))]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v(_vm._s(row.l))]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v(_vm._s(row.gb))]),
+                    _vm._v(" "),
+                    _c("td", { class: [row.gl > 20 ? "danger" : ""] }, [
+                      _vm._v(_vm._s(row.gl))
+                    ]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v(_vm._s(row.winperc))])
+                  ])
+                })
+              )
+            ]
           )
         ])
       ])

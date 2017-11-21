@@ -17,6 +17,7 @@
         <h3 class="panel-title">Standings</h3>
       </div>
       <div class="panel-body">
+        <div class="table-responsive">
         <table class="table table-striped table-condensed table-responsive">
           <thead>
             <th>Team</th>
@@ -39,6 +40,7 @@
             </tr>
           </tbody>
         </table>
+      </div>
       </div>
     </div>
   </div>
