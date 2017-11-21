@@ -17,7 +17,7 @@
         <h3 class="panel-title">Standings</h3>
       </div>
       <div class="panel-body">
-        <table class="table table-striped table-condensed">
+        <table class="table table-striped table-condensed table-responsive">
           <thead>
             <th>Team</th>
             <th>Owner</th>
